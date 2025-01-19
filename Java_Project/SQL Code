@@ -1,0 +1,33 @@
+CREATE DATABASE pds;
+
+use pds;
+
+Create table admin(admin_id int (6) primary key, password varchar (15)); 
+insert into admin values (98762, '@Rohit21'); 
+insert into admin values (23476, '@Afridi7'); 
+
+Select * from admin;
+
+Create table product (Admin_iD int (6), foreign key (admin_id) references admin(admin_id),
+Ration_Area_Code int (4) ,Rice int(4), Salt int (4), Pulses int (4) , Wheat int (4) , R_rate int (2),
+S_rate int (2) ,P_rate int (2) , W_rate int (2));
+
+Insert into product values (98762, 1111, 1500, 1500 , 1500, 1500, 2, 3, 4, 5 );
+Insert into product values (23476, 1112, 1500, 1500 , 1500, 1500, 2, 3, 4, 5 );
+
+select * from product;
+
+Create table user  (ration_card_id varchar (6) , username varchar (40), age varchar (3) ,
+ mobile_number varchar (10), Email varchar (50), address varchar (200) , ward varchar (200), 
+ city varchar (100),
+ district varchar (100), pincode varchar (6), ration_area_code varchar (6), uid_no varchar (12), 
+ income int (5), members int (2), passwordforID varchar (15), primary key (ration_card_id,
+ uid_no, mobile_number));
+ 
+ select * from user;
+ 
+ Create table Members (ration_card_ID varchar (6), foreign key (ration_card_id)
+ references user( ration_card_id) , name varchar (50), uid_no varchar (12) primary key ,relation varchar 
+ (20)); 
+ 
+ select * from Members;
