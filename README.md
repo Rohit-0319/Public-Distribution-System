@@ -52,7 +52,7 @@ Import the project into your preferred IDE.
 
 Set up the MySQL database:
 
-Create a database and tables as per the project requirements.
+Create a database and tables query give in SQL code file.
 
 Configure database connection settings in the Java project.
 
