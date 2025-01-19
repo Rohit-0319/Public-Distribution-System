@@ -1,10 +1,10 @@
-Public Distribution System
+# Public Distribution System
 
-Brief Description
+# Brief Description
 
 The Public Distribution System is a console-based project built using Java and an SQL database. It features modules for Registration, Login, and Dashboard functionalities. This system allows eligible beneficiaries to register and obtain a ration card ID and password to access their accounts. Users can log in to view their ration details and bills, while administrators can log in to manage and update stock information. The application ensures seamless functionality tailored to the needs of its users.
 
-Features
+# Features
 
 Beneficiary Registration:
 
@@ -22,11 +22,11 @@ Console-Based Interface:
 
 Simple and interactive interface for ease of use.
 
-Installation Instructions
+# Installation Instructions
 
 To set up and run the Public Distribution System project on your local machine, follow these steps:
 
-Prerequisites
+# Prerequisites
 
 Install Java Development Kit (JDK):
 
@@ -44,7 +44,7 @@ Install an IDE or application to run Java code:
 
 Recommended IDEs: IntelliJ IDEA, Eclipse, or NetBeans.
 
-Steps to Run
+## Steps to Run
 
 Clone or download the project repository to your local machine.
 
@@ -62,9 +62,9 @@ Use your IDE to compile and execute the Java code.
 
 Follow the on-screen prompts to interact with the application.
 
-Usage
+# Usage
 
-Beneficiaries:
+## Beneficiaries:
 
 Register by providing the required details and meeting the eligibility criteria.
 
@@ -74,17 +74,17 @@ View your ration details.
 
 Check your bill.
 
-Admins:
+## Admins:
 
 Log in using administrator credentials.
 
 Manage stock levels and update inventory.
 
-License
+# License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-Contact
+# Contact
 
 For any queries or contributions, please contact:
 
@@ -92,7 +92,7 @@ rohitkumarjaiswal758@gmail.com
 
 GitHub: https://github.com/Rohit-0319
 
-Acknowledgments
+# Acknowledgments
 
 Thanks to all libraries and tools used in this project.
 
